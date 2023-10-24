@@ -1,0 +1,120 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site1.master.vb" Inherits="BanEcuador_Web.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>www.banecuador.com</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 459px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+   <table width="100%">
+    <tr>
+    <td>
+
+    <div id="Titulo">
+    <!-- ------------------------------------------------------------------------------------------------------ -->
+    <table width="100%">
+    <tr>
+    <td class="style1">
+    <img src="imagenes/lodo_BanEcuador.png" style="width: 310px">
+    </td>
+    <td align=right>
+        <asp:ImageButton ID="ImageButton2" runat="server" Height="29px" 
+            ImageUrl="imagenes/boton ayuda.png" Width="35px" />
+&nbsp;&nbsp;&nbsp;
+        <asp:ImageButton ID="ImageButton1" runat="server" Height="29px" 
+            ImageUrl="imagenes/boton contactos.png" Width="35px" />
+&nbsp;&nbsp;&nbsp;
+        <asp:ImageButton ID="ImageButton3" runat="server" Height="29px" 
+            ImageUrl="imagenes/Boton_seguridad.png" Width="35px" />
+&nbsp;</td>
+    </tr>
+    </table>
+    <!-- ------------------------------------------------------------------------------------------------------ -->
+    </div>
+
+
+    <div id="Menu">
+     <img src="imagenes/propaganda1.jpg" style="width:100%; height: 201px">
+        <br />
+        <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal">
+            <DynamicMenuItemStyle ForeColor="#FF33CC" />
+            <DynamicMenuStyle BackColor="#6600CC" BorderStyle="Double" />
+            <DynamicSelectedStyle ForeColor="#FF6600" />
+            <Items>
+                <asp:MenuItem NavigateUrl="~/Index.aspx" Text=":: Tu Banco" Value=":: Tu Banco">
+                </asp:MenuItem>
+                <asp:MenuItem Text=":: Personas" Value=":: Personas">
+                    <asp:MenuItem Text="Personas" Value="Personas" 
+                        NavigateUrl="~/Banca personas.aspx"></asp:MenuItem>
+                </asp:MenuItem>
+                <asp:MenuItem Text=":: Empresas" Value=":: Empresas">
+                    <asp:MenuItem Text="Empresas" Value="Empresas"></asp:MenuItem>
+                </asp:MenuItem>
+                <asp:MenuItem Text=":: Clientes en el Exterior" 
+                    Value=":: Clientes en el Exterior">
+                    <asp:MenuItem Text="Clientes" Value="Clientes"></asp:MenuItem>
+                </asp:MenuItem>
+                <asp:MenuItem Text=":: Mantenimiento" Value=":: Mantenimiento">
+                    <asp:MenuItem NavigateUrl="~/Pais.aspx" Text="Pais" Value="Pais"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/Provincia.aspx" Text="Provincia" Value="Provincia">
+                    </asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/Canton.aspx" Text="Cantón" Value="Cantón">
+                    </asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/Cliente.aspx" Text="Clientes" Value="Clientes">
+                    </asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/Cuenta_ahorro.aspx" Text="Crear cuenta" 
+                        Value="Crear cuenta"></asp:MenuItem>
+                </asp:MenuItem>
+            </Items>
+            <StaticHoverStyle BackColor="#6600CC" ForeColor="Fuchsia" />
+            <StaticMenuItemStyle BackColor="Fuchsia" />
+            <StaticMenuStyle BackColor="Fuchsia" />
+        </asp:Menu>
+    </div>
+
+
+
+    <div id="Centro">
+    <table width="100%"  border="0">
+    <tr>
+    <td width="10%"  height="450px">
+    <!-- ----------------------------------------------- IQUIERDA ------------------------------------------------- -->
+
+   
+     <td width="80%">
+    <!-- ----------------------------------------------- CENTRO ---------------------------------------------------- -->
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+  <td width="10%">
+    <!-- ----------------------------------------------- DERECHA -------------------------------------------------- -->
+    </td>
+    </tr>
+    </table>
+    </div>
+
+
+    <div id="Pie">
+      &nbsp;<asp:Label ID="lblpie" runat="server" 
+            Text="© BancEcuador, Omar Gonzales 2018"></asp:Label>
+    </div>
+
+    <!-- ------------------------------------------------------------------------------------------------------ -->
+    
+    </td>
+    </tr>
+    </table>
+
+    </form>
+</body>
+</html>
