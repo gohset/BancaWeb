@@ -1,0 +1,16 @@
+D:\VISUAL STUDIO PROGRAMACION IV\1PROGRAMACION VI ASP.NET\BanEcuador Web\BanEcuador Web\bin\BanEcuador Web.dll
+D:\VISUAL STUDIO PROGRAMACION IV\1PROGRAMACION VI ASP.NET\BanEcuador Web\BanEcuador Web\bin\BanEcuador Web.pdb
+D:\VISUAL STUDIO PROGRAMACION IV\1PROGRAMACION VI ASP.NET\BanEcuador Web\BanEcuador Web\bin\BanEcuador Web.xml
+D:\VISUAL STUDIO PROGRAMACION IV\1PROGRAMACION VI ASP.NET\BanEcuador Web\BanEcuador Web\obj\Debug\BanEcuador_Web.Resources.resources
+D:\VISUAL STUDIO PROGRAMACION IV\1PROGRAMACION VI ASP.NET\BanEcuador Web\BanEcuador Web\obj\Debug\BanEcuador Web.vbproj.GenerateResource.Cache
+D:\VISUAL STUDIO PROGRAMACION IV\1PROGRAMACION VI ASP.NET\BanEcuador Web\BanEcuador Web\obj\Debug\BanEcuador Web.dll
+D:\VISUAL STUDIO PROGRAMACION IV\1PROGRAMACION VI ASP.NET\BanEcuador Web\BanEcuador Web\obj\Debug\BanEcuador Web.xml
+D:\VISUAL STUDIO PROGRAMACION IV\1PROGRAMACION VI ASP.NET\BanEcuador Web\BanEcuador Web\obj\Debug\BanEcuador Web.pdb
+E:\VISUAL STUDIO PROGRAMACION IV\BanEcuador Web\BanEcuador Web\bin\BanEcuador Web.dll
+E:\VISUAL STUDIO PROGRAMACION IV\BanEcuador Web\BanEcuador Web\bin\BanEcuador Web.pdb
+E:\VISUAL STUDIO PROGRAMACION IV\BanEcuador Web\BanEcuador Web\bin\BanEcuador Web.xml
+E:\VISUAL STUDIO PROGRAMACION IV\BanEcuador Web\BanEcuador Web\obj\Debug\BanEcuador_Web.Resources.resources
+E:\VISUAL STUDIO PROGRAMACION IV\BanEcuador Web\BanEcuador Web\obj\Debug\BanEcuador Web.vbproj.GenerateResource.Cache
+E:\VISUAL STUDIO PROGRAMACION IV\BanEcuador Web\BanEcuador Web\obj\Debug\BanEcuador Web.dll
+E:\VISUAL STUDIO PROGRAMACION IV\BanEcuador Web\BanEcuador Web\obj\Debug\BanEcuador Web.xml
+E:\VISUAL STUDIO PROGRAMACION IV\BanEcuador Web\BanEcuador Web\obj\Debug\BanEcuador Web.pdb
