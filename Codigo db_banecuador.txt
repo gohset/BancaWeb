@@ -1,0 +1,76 @@
+create database db_banecuador
+
+use  db_banecuador
+
+CREATE TABLE tb_pais
+(
+codigo int primary key NOT NULL,
+pais varchar(50)
+)
+
+CREATE TABLE tb_provincia
+(
+codigo int primary key NOT NULL,
+provincia varchar(50)
+)
+
+CREATE TABLE tb_canton
+(
+codigo int primary key NOT NULL,
+canton varchar(50)
+)
+
+CREATE TABLE tb_cliente
+(
+cedula varchar(10) NOT NULL,
+nombre varchar(50)NOT NULL,
+apellido varchar(50)NOT NULL,
+sexo varchar(50)NOT NULL,
+civil varchar(50)NOT NULL,
+edad int NOT NULL,
+direccion varchar(50)NOT NULL,
+correo varchar(50)NOT NULL,
+celular varchar(50)NOT NULL,
+telefono varchar(50)NOT NULL,
+pais varchar(50)NOT NULL,
+provincia varchar(50)NOT NULL,
+canton varchar(50)NOT NULL
+
+)
+
+CREATE TABLE tb_cuenta
+(
+codigo int primary key NOT NULL,
+ncuenta varchar(15) NOT NULL,
+id_cliente varchar(15) NOT NULL,
+tipo varchar(15) NOT NULL,
+saldo varchar(10) NOT NULL,
+fecha varchar(15) NOT NULL
+)
+
+
+CREATE TABLE tb_usuario
+(
+cedula varchar(10) NOT NULL,
+usuario varchar(50) NOT NULL,
+pass varchar(50) NOT NULL,
+)
+
+
+CREATE TABLE tb_transferencia
+(
+codigo int primary key NOT NULL,
+cuenta_d varchar(20) NOT NULL,
+vuenta_a varchar(50) NOT NULL,
+concepto varchar(50) NOT NULL,
+tipo_cuenta varchar(50) NOT NULL,
+nombre_a varchar(50) NOT NULL,
+email_a varchar(50) NOT NULL,
+email_d varchar(50) NOT NULL,
+valor varchar(10) NOT NULL
+)
+
+
+
+
+
